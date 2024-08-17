@@ -8,10 +8,10 @@ public class Client {
     public static void main(String[] args) throws InterruptedException {
         AudioPlayer player = new AdvancedAudioPlayerAdapter(new AdvancedAudioPlayer());
 
-        player.play("mp4", "video.mp4");
+        player.play("mp4", "audio1.mp4");
         player.stop();
         
-        player.play("vlc", "video.vlc");
+        player.play("vlc", "audio2.vlc");
         player.stop();
     }
 }
