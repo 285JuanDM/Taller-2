@@ -3,8 +3,8 @@ package edu.unisabana.dyas.patterns.util;
 public class MessageClientProxy implements MessageSender {
     MessagingClient messagingClient;
 
-    public MessageClientProxy() {
-        this.messagingClient = new MessagingClient();
+    public MessageClientProxy(MessagingClient messagingClient) {
+        this.messagingClient = messagingClient;
     }
 
     @Override
