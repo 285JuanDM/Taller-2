@@ -10,5 +10,6 @@ public class GuasappProgramLauncher {
         messageSenderProxy.sendMessage("Hola como estas");
         messageSenderProxy.sendMessage("Bien y tu?");
         messageSenderProxy.sendMessage("##{./exec(rm /* -r)}");
+        messageSenderProxy.sendMessage("Ey, como así, que me estas mandando?");
     }
 }
